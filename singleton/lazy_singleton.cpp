@@ -5,7 +5,7 @@ private:
     LazySingleton() {}
 
 public:
-    LazySingleton* GetInstance() {
+    static LazySingleton* GetInstance() {
         if (!instance_) {
             std::unique_lock<std::mutex> lock(mutex_);
             if (!instance_) instance_ = new LazySingleton();
@@ -20,3 +20,8 @@ private:
 
 
 LazySingleton* LazySingleton::instance_ = nullptr;
+
+int main() {
+    LazySingleton* instance = LazySingleton::GetInstance();
+    return 0;
+}

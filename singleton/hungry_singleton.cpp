@@ -3,7 +3,7 @@ private:
     HungrySingleton() {}
 
 public:
-    HungrySingleton* GetInstance() {
+    static HungrySingleton* GetInstance() {
         return instance_;
     }
 
@@ -14,4 +14,9 @@ private:
 };
 
 HungrySingleton* HungrySingleton::instance_ = new HungrySingleton();
+
+int main() {
+    HungrySingleton* instance = HungrySingleton::GetInstance();
+    return 0;
+}
 
