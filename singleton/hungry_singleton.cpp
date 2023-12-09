@@ -8,8 +8,6 @@ public:
     }
 
 private:
-    HungrySingleton() {}
-
     static HungrySingleton* instance_;
 };
 
