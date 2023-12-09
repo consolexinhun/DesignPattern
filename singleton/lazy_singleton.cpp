@@ -18,4 +18,5 @@ private:
     static std::mutex mutex_;
 };
 
+
 LazySingleton* LazySingleton::instance_ = nullptr;
