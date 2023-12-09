@@ -8,3 +8,8 @@ public:
         return instance;
     }
 };
+
+int main() {
+    MySingleton& instance = MySingleton::GetInstance();
+    return 0;
+}
