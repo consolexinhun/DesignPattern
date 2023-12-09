@@ -6,7 +6,7 @@ using std::endl;
 class ProtoType {
 public:
     virtual ~ProtoType() {
-        cout << "Destruct()" << endl;
+        cout << "Destruct() ProtoType" << endl;
     }
 
     virtual ProtoType* Clone() = 0;
@@ -25,7 +25,7 @@ public:
         cout << "ConcretePrototype copy..." << endl;
     }
     ~ConcreteProtoType() {
-        cout << "Destruct" << endl;
+        cout << "Destruct ConcreteProtoType" << endl;
     }
 
     ProtoType* Clone() override {

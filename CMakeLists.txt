@@ -7,6 +7,7 @@ add_compile_options(-std=c++14 -g -Wall -fPIC)
 set(SRC
     singleton
     prototype
+    factory
 )
 
 foreach(dir IN ITEMS ${SRC})
