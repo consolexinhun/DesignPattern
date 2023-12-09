@@ -1,4 +1,5 @@
 #include <mutex>
+#include <thread>
 
 class LazySingleton {
 private:
@@ -20,6 +21,7 @@ private:
 
 
 LazySingleton* LazySingleton::instance_ = nullptr;
+std::mutex LazySingleton::mutex_;
 
 int main() {
     LazySingleton* instance = LazySingleton::GetInstance();
