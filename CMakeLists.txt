@@ -8,6 +8,7 @@ set(SRC
     singleton
     prototype
     factory
+    builder
 )
 
 foreach(dir IN ITEMS ${SRC})
