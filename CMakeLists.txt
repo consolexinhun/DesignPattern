@@ -9,6 +9,7 @@ set(SRC
     prototype
     factory
     builder
+    proxy
 )
 
 foreach(dir IN ITEMS ${SRC})
