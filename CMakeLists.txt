@@ -10,6 +10,7 @@ set(SRC
     factory
     builder
     proxy
+    adaptor
 )
 
 foreach(dir IN ITEMS ${SRC})
