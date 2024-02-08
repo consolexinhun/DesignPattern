@@ -11,6 +11,7 @@ set(SRC
     builder
     proxy
     adaptor
+    bridge
 )
 
 foreach(dir IN ITEMS ${SRC})
