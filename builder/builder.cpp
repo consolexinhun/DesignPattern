@@ -18,6 +18,7 @@ public:
     AbstractBuilder() {
         product_.reset(new Product());
     }
+    virtual ~AbstractBuilder() {}
 
     Product* GetResult() {
         return product_.get();

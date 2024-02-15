@@ -7,13 +7,14 @@ using std::cout;
 using std::endl;
 
 // 抽象主题
-class AbstructSubject {
+class AbstractSubject {
 public:
+    virtual ~AbstractSubject() {}
     virtual void Request() = 0;
 };
 
 // 实际主题
-class RealSubject : public AbstructSubject {
+class RealSubject : public AbstractSubject {
 public:
     void Request() override {
         puts("RealSubject::Request()");
@@ -21,7 +22,7 @@ public:
 };
 
 // 代理类，内部包含真实主题的引用，可以访问，控制或者扩展真实主题
-class SubjectProxy : public AbstructSubject {
+class SubjectProxy : public AbstractSubject {
 public:
     SubjectProxy() {
         real_ = std::make_unique<RealSubject>();
@@ -43,8 +44,8 @@ private:
 };
 
 int main() {
-    // std::unique_ptr<AbstructSubject> proxy = std::make_unique<SubjectProxy>();
-    std::shared_ptr<AbstructSubject> proxy = std::make_shared<SubjectProxy>();
+    // std::unique_ptr<AbstractSubject> proxy = std::make_unique<SubjectProxy>();
+    std::shared_ptr<AbstractSubject> proxy = std::make_shared<SubjectProxy>();
     proxy->Request();
     return 0;
 }

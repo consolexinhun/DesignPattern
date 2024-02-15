@@ -12,6 +12,7 @@ using std::endl;
  */
 class AbstructTarget {
 public:
+    virtual ~AbstructTarget() {};
     virtual void Request() = 0;
 };
 
