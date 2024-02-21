@@ -13,6 +13,7 @@ set(SRC
     adaptor
     bridge
     facade
+    flyweight
 )
 
 foreach(dir IN ITEMS ${SRC})
