@@ -15,6 +15,7 @@ set(SRC
     facade
     flyweight
     composite
+    template_method
 )
 
 foreach(dir IN ITEMS ${SRC})
