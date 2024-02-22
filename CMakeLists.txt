@@ -14,6 +14,7 @@ set(SRC
     bridge
     facade
     flyweight
+    composite
 )
 
 foreach(dir IN ITEMS ${SRC})

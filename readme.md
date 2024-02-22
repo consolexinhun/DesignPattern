@@ -21,7 +21,7 @@
 4. 装饰
 5. 外观 [facade](/facade)，为多个子系统提供统一的接口
 6. 享元 [flyweight](/flyweight)，将对象共享以支持对象的复用
-7. 组合
+7. 组合 [composite](/composite)，将对象组合成树状层次结构
 
 #### 行为型模式
 
