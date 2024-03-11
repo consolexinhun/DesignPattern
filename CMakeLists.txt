@@ -17,6 +17,7 @@ set(SRC
     flyweight
     composite
     template_method
+    strategy
 )
 
 foreach(dir IN ITEMS ${SRC})
