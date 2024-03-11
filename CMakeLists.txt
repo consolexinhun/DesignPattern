@@ -13,6 +13,10 @@ set(SRC
     adaptor
     bridge
     decorator
+    facade
+    flyweight
+    composite
+    template_method
 )
 
 foreach(dir IN ITEMS ${SRC})
