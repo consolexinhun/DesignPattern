@@ -9,6 +9,12 @@ using std::cout;
 using std::endl;
 
 /**
+ * 这是简单命令的例子
+ * 与组合模式结合可以实现宏命令
+ * 与备忘录模式结合可以实现命令的撤销和恢复
+*/
+
+/**
  * 抽象命令，声明执行命令的接口
 */
 class AbstractCommand {
