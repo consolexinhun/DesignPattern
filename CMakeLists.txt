@@ -18,6 +18,7 @@ set(SRC
     composite
     template_method
     strategy
+    "command"
 )
 
 foreach(dir IN ITEMS ${SRC})
