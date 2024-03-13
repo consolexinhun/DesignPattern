@@ -29,8 +29,8 @@
 
 1. 模版方法 [template_method](/template_method)，定义一个操作的算法骨架，按照某种顺序调用其包含的基本方法
 2. 策略 [strategy](/strategy)，将每个算法封装起来，使得可以相互替换
-3. 命令 [command](command)，将请求封装为对象，使得发出请求和接收请求分开
-4. 责任链
+3. 命令 [command](/command)，将请求封装为对象，使得发出请求和接收请求分开
+4. 责任链 [responsibility](/responsibility)，把请求从链中的一个对象转移到下一个对象
 5. 状态
 6. 观察者
 7. 中介者

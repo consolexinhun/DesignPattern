@@ -19,6 +19,7 @@ set(SRC
     template_method
     strategy
     "command"
+    responsibility
 )
 
 foreach(dir IN ITEMS ${SRC})
