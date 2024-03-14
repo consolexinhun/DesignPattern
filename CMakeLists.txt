@@ -20,6 +20,7 @@ set(SRC
     strategy
     "command"
     responsibility
+    state
 )
 
 foreach(dir IN ITEMS ${SRC})
