@@ -22,6 +22,7 @@ set(SRC
     responsibility
     state
     observer
+    iterator
 )
 
 foreach(dir IN ITEMS ${SRC})
