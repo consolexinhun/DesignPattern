@@ -21,6 +21,7 @@ set(SRC
     "command"
     responsibility
     state
+    observer
 )
 
 foreach(dir IN ITEMS ${SRC})

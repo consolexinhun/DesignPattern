@@ -32,7 +32,7 @@
 3. 命令 [command](/command)，将请求封装为对象，使得发出请求和接收请求分开
 4. 责任链 [responsibility](/responsibility)，把请求从链中的一个对象转移到下一个对象
 5. 状态 [state](/state)，对象内部状态改变时改变其行为
-6. 观察者
+6. 观察者 [observer](/observer)，当一个对象发生改变时，将改变的通知发给其他的对象
 7. 中介者
 8. 迭代器
 9. 访问者
