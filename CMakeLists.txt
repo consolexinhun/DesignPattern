@@ -23,6 +23,7 @@ set(SRC
     state
     observer
     iterator
+    mediator
 )
 
 foreach(dir IN ITEMS ${SRC})

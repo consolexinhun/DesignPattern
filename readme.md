@@ -33,7 +33,7 @@
 4. 责任链 [responsibility](/responsibility)，把请求从链中的一个对象转移到下一个对象
 5. 状态 [state](/state)，对象内部状态改变时改变其行为
 6. 观察者 [observer](/observer)，当一个对象发生改变时，将改变的通知发给其他的对象
-7. 中介者
+7. 中介者 [mediator](/mediator)，定义中介对象简化原有对象间的交互关系
 8. 迭代器 [iterator](/iterator)，顺序访问对象中的数据而不暴露对象的内部表示
 9. 访问者
 10. 备忘录
