@@ -36,7 +36,7 @@
 7. 中介者 [mediator](/mediator)，定义中介对象简化原有对象间的交互关系
 8. 迭代器 [iterator](/iterator)，顺序访问对象中的数据而不暴露对象的内部表示
 9. 访问者 [visitor](/visitor)，在不改变集合元素的情况下，为集合的每个元素提供多种访问方式
-10. 备忘录 [memento](/memento)
+10. 备忘录 [memento](/memento)，在不破坏封装性的前提下，获取并保存一个对象的内部状态，以便以后恢复它
 11. 解释器 [interpreter](/interpreter)
 
 ### 参考资料
