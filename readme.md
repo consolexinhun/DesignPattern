@@ -35,9 +35,9 @@
 6. 观察者 [observer](/observer)，当一个对象发生改变时，将改变的通知发给其他的对象
 7. 中介者 [mediator](/mediator)，定义中介对象简化原有对象间的交互关系
 8. 迭代器 [iterator](/iterator)，顺序访问对象中的数据而不暴露对象的内部表示
-9. 访问者
-10. 备忘录
-11. 解释器
+9. 访问者 [visitor](/visitor)，在不改变集合元素的情况下，为集合的每个元素提供多种访问方式
+10. 备忘录 [memento](/memento)
+11. 解释器 [interpreter](/interpreter)
 
 ### 参考资料
 

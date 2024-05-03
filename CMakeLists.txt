@@ -24,6 +24,7 @@ set(SRC
     observer
     iterator
     mediator
+    visitor
 )
 
 foreach(dir IN ITEMS ${SRC})
