@@ -26,6 +26,7 @@ set(SRC
     mediator
     visitor
     memento
+    interpreter
 )
 
 foreach(dir IN ITEMS ${SRC})
